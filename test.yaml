@@ -1,0 +1,7 @@
+- name: Set Up a Project and Job Template
+  hosts: localhost
+  become: true
+
+  tasks:
+    - name: Echo
+      shell: echo "Hello!!!"
